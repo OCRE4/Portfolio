@@ -21,3 +21,10 @@
 
   margin-top: 9px;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .tarjeta {
+    margin-top: 70px;
+  }
+}

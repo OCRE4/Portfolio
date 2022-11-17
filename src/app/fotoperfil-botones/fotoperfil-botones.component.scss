@@ -31,8 +31,9 @@
 .botones a {
 
   background-color: #3b5998;
-  margin: 3px;
-  right: 5px;
+  margin: 5px;
+  right: 6px;
+  top: 28px;
 
 
 
@@ -40,3 +41,20 @@
 
 
 
+.texto {
+
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .botones a {
+
+    top: 35px;
+
+  }
+
+  .fotoYo {
+margin-top: 100px;
+  }
+}
