@@ -28,10 +28,11 @@ export class ContactoComponent implements OnInit {
 
     if (this.formularioDeContacto.valid == true) {
 
-      window.open('https://wa.me/' + 2213563950 + '?text=Hola, mi nombre es '
+      window.open('https://wa.me/' + 2213563950 + '?text=Hola, mi nombre es: '
       + this.formularioDeContacto.value.nombre +
       '. Me quiero contactar con vos por lo siguiente:'
       + this.formularioDeContacto.value.mensaje, '_blank');
   }
 
  }}
+

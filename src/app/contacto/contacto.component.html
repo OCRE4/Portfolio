@@ -3,7 +3,7 @@
   <div class="row">
    <div class="col-md-12 text-center contenido">
 
-     <p class="fw-bold fs-4 texto5">CONTACTO</p>
+     <p class="fw-bold h4 texto5">CONTACTO</p>
 
    </div>
   </div>
@@ -30,6 +30,10 @@
       <div *ngIf="formularioDeContacto.controls.mensaje.errors" class="text-danger">
         <div *ngIf="formularioDeContacto.controls.mensaje.errors.required"></div>
       </div>
+      <mat-form-field appearance="fill">
+        <mat-label>Mensaje</mat-label>
+        <input matInput type="text" formControlName="mensaje">
+      </mat-form-field>
     </div>
   </div>
   <br>
@@ -37,6 +41,7 @@
     <div class="col-md-12 text-center">
       <button mat-raised-button class="boton" type="submit" color="primary">Enviar Mensaje</button>
     </div>
+
   </div>
 </form>
 </div>
