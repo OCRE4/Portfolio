@@ -15,6 +15,7 @@ export class ContactoComponent implements OnInit {
   ngOnInit() {
     this.formularioDeContacto = this.formBuilder.group({
       nombre: ["", [Validators.required]],
+      email: ["", [Validators.required, Validators.email]],
       mensaje: [
         "",
         [
@@ -30,6 +31,7 @@ export class ContactoComponent implements OnInit {
 
       window.open('https://wa.me/' + 2213563950 + '?text=Hola, mi nombre es: '
       + this.formularioDeContacto.value.nombre +
+      ', mi email es: ' + this.formularioDeContacto.value.email +
       '. Me quiero contactar con vos por lo siguiente:'
       + this.formularioDeContacto.value.mensaje, '_blank');
   }
