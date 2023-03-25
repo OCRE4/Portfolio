@@ -1,69 +1,16 @@
 .texto2 {
-
   margin-top: 120px;
   margin-bottom: 2%;
-
 }
 
-
-
-.tarjeta3 {
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-width: 50%;
-margin-left: 25%;
-
-
-
-
+.ts {
+  width: 138px;
+  height: 138px;
+  margin-bottom: 8px;
 }
 
-
-::ng-deep .mat-progress-bar-fill::after {
-
-  background-color: #00334d;
-
-}
-
-::ng-deep .mat-progress-bar-buffer {
-
-  background: #E4E8EB;
-
-}
-
-
-.habilidades {
-
-  margin-right: 60%;
-  margin-left: 20px;
-}
-
-
-.progreso {
-
-  margin-bottom: 5%;
-  margin-left: 5%;
-
-
-}
-
-.barraprogreso {
-
-  margin-left: 80%;
-  float: right;
-  padding-top: 1%;
-
-
-
-}
-
-@media only screen and (max-width: 768px) {
-
-  .texto2 {
-
-    margin-bottom: 24px;
-  }
-  .tarjeta3 {
-    right: 70px;
-    min-width:90%;
-  }
+.js {
+  width: 138px;
+  height: 138px;
+  margin-bottom: 8px;
 }
